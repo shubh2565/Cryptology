@@ -100,7 +100,7 @@ int ATBASH_DECRYPT()
 void ATBASH()
 {
 	int choice3;
-	printf("SELECT\n1.Encypt a message\n2.Decypt a message");
+	printf("SELECT\n1. Encypt a message\n2. Decrypt a message");
 	scanf("%d", &choice3);
 	printf("\n");
 	if(choice3==1)
@@ -279,7 +279,7 @@ void CAESAR1_DECRYPT()
 void CAESAR1()
 {
 	int choice3;
-	printf("SELECT\n1.Encypt a message\n2.Decypt a message");
+	printf("SELECT\n1. Encypt a message\n2. Decypt a message");
 	scanf("%d",&choice3);
 	printf("\n");
 	if(choice3==1)
@@ -355,7 +355,7 @@ void CAESAR2_DECRYPT()
 void CAESAR2()
 {
 	int choice3;
-	printf("SELECT\n1.Encypt a message\n2.Decypt a message");
+	printf("SELECT\n1. Encypt a message\n2.Decrypt a message");
 	scanf("%d",&choice3);
 	printf("\n");
 	if(choice3==1)
@@ -651,7 +651,7 @@ void ROT13_DECRYPT()
 void ROT13()
 {
 	int choice3;
-	printf("SELECT\n1.Encypt a message\n2.Decypt a message");
+	printf("SELECT\n1. Encypt a message\n2. Dercypt a message");
 	scanf("%d",&choice3);
 	printf("\n");
 	if(choice3==1)
