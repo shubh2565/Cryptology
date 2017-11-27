@@ -5,9 +5,9 @@ int main()
 {
 	char a,pt[100],ct[100];
 	int i,b;
-	printf("enter the plain text : ");
+	printf("Enter the plain text : ");
 	gets(pt);
-	printf("enter the key        : ");
+	printf("Enter the key        : ");
 	scanf("%c",&a);
 	if(islower(a))
 	b=a-96;
@@ -36,7 +36,7 @@ int main()
 		else
 		ct[i]=' ';
     }
-	printf("the cipher text is   : %s",ct);
+	printf("The cipher text is   : %s",ct);
 	getch();
 	return(0);
 	
