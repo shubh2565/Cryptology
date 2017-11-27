@@ -5,7 +5,7 @@ int main()
 {
 	char pt[100],ct[100];
 	int i,a=13;
-	printf("enter the plain text : ");
+	printf("Enter the plain text : ");
 	gets(pt);
 	for(i=0;pt[i]!='\0';i++)
 	{
@@ -30,7 +30,7 @@ int main()
 		else
 		ct[i]=' ';
     }
-	printf("the cipher text is   : %s",ct);
+	printf("The cipher text is after using ROT13 cipher is  : %s",ct);
 	getch();
 	return(0);
 	
